@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D78FF4171FBA921E005D863F /* hustle-ons.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7B711DB1FB93F7100299EE5 /* hustle-ons.wav */; };
+		D78FF4181FBA921F005D863F /* hustle-ons.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7B711DB1FB93F7100299EE5 /* hustle-ons.wav */; };
+		D78FF4191FBA921F005D863F /* hustle-ons.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7B711DB1FB93F7100299EE5 /* hustle-ons.wav */; };
 		D7C574D41FB92BC3000AA1F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C574D31FB92BC3000AA1F3 /* AppDelegate.swift */; };
 		D7C574D61FB92BC3000AA1F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C574D51FB92BC3000AA1F3 /* ViewController.swift */; };
 		D7C574D91FB92BC3000AA1F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C574D71FB92BC3000AA1F3 /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		D7C574E11FB92BC3000AA1F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C574DF1FB92BC3000AA1F3 /* LaunchScreen.storyboard */; };
 		D7C574EC1FB92BC3000AA1F3 /* TestXcode9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C574EB1FB92BC3000AA1F3 /* TestXcode9Tests.swift */; };
 		D7C574F71FB92BC3000AA1F3 /* TestXcode9UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C574F61FB92BC3000AA1F3 /* TestXcode9UITests.swift */; };
+		D7C575071FB930BF000AA1F3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C575061FB930BF000AA1F3 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D7B711DB1FB93F7100299EE5 /* hustle-ons.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-ons.wav"; sourceTree = "<group>"; };
 		D7C574D01FB92BC3000AA1F3 /* TestXcode9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestXcode9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C574D31FB92BC3000AA1F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7C574D51FB92BC3000AA1F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		D7C574F21FB92BC3000AA1F3 /* TestXcode9UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestXcode9UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C574F61FB92BC3000AA1F3 /* TestXcode9UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestXcode9UITests.swift; sourceTree = "<group>"; };
 		D7C574F81FB92BC3000AA1F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C575061FB930BF000AA1F3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		D7C574C71FB92BC3000AA1F3 = {
 			isa = PBXGroup;
 			children = (
+				D7C575061FB930BF000AA1F3 /* Default-568h@2x.png */,
 				D7C574D21FB92BC3000AA1F3 /* TestXcode9 */,
 				D7C574EA1FB92BC3000AA1F3 /* TestXcode9Tests */,
 				D7C574F51FB92BC3000AA1F3 /* TestXcode9UITests */,
@@ -99,13 +106,12 @@
 		D7C574D21FB92BC3000AA1F3 /* TestXcode9 */ = {
 			isa = PBXGroup;
 			children = (
-				D7C574D31FB92BC3000AA1F3 /* AppDelegate.swift */,
+				D7B711DB1FB93F7100299EE5 /* hustle-ons.wav */,
+				D7C575051FB93077000AA1F3 /* Supporting Files */,
+				D7C574E21FB92BC3000AA1F3 /* Info.plist */,
 				D7C574D51FB92BC3000AA1F3 /* ViewController.swift */,
 				D7C574D71FB92BC3000AA1F3 /* Main.storyboard */,
 				D7C574DD1FB92BC3000AA1F3 /* Assets.xcassets */,
-				D7C574DF1FB92BC3000AA1F3 /* LaunchScreen.storyboard */,
-				D7C574E21FB92BC3000AA1F3 /* Info.plist */,
-				D7C574DA1FB92BC3000AA1F3 /* TestXcode9.xcdatamodeld */,
 			);
 			path = TestXcode9;
 			sourceTree = "<group>";
@@ -126,6 +132,16 @@
 				D7C574F81FB92BC3000AA1F3 /* Info.plist */,
 			);
 			path = TestXcode9UITests;
+			sourceTree = "<group>";
+		};
+		D7C575051FB93077000AA1F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7C574D31FB92BC3000AA1F3 /* AppDelegate.swift */,
+				D7C574DF1FB92BC3000AA1F3 /* LaunchScreen.storyboard */,
+				D7C574DA1FB92BC3000AA1F3 /* TestXcode9.xcdatamodeld */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +252,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C574E11FB92BC3000AA1F3 /* LaunchScreen.storyboard in Resources */,
+				D7C575071FB930BF000AA1F3 /* Default-568h@2x.png in Resources */,
+				D78FF4171FBA921E005D863F /* hustle-ons.wav in Resources */,
 				D7C574DE1FB92BC3000AA1F3 /* Assets.xcassets in Resources */,
 				D7C574D91FB92BC3000AA1F3 /* Main.storyboard in Resources */,
 			);
@@ -245,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D78FF4181FBA921F005D863F /* hustle-ons.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D78FF4191FBA921F005D863F /* hustle-ons.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
